@@ -6,7 +6,7 @@ import pandas as pd
 import numpy as np
 
 # Wczytanie danych z Excela
-df = pd.read_excel(r"C:\Users\48690\Downloads\OECD.xlsx") #Proszę podać własną ścieżkę pliku z danymi OECD 
+df = pd.read_excel("OECD.xlsx") 
 
 # Obliczenie średniej długości życia
 df['Średnia długość życia'] = (df['Długość życia kobiet'] + df['Długość życia mężczyzn']) / 2
@@ -161,3 +161,4 @@ def update_wykres_wiek_emerytalny(wybrane_kraje):
 if __name__ == "__main__":
     app.run(debug=True)
 #http://127.0.0.1:8050/ lokalny link
+

@@ -3,7 +3,7 @@ Aplikacja w Pythonie zbudowana przy użyciu frameworku Dash (Plotly), która dos
 
 Ten panel pozwala na dynamiczną eksplorację danych i łatwe wykrywanie korelacji oraz trendów.
 
-Kluczowe Funkcje ✨
+Kluczowe Funkcje 
 -Interaktywne Wykresy: Wykresy są dynamiczne (można powiększać, przybliżać, najeżdżać kursorem) dzięki bibliotece Plotly.
 
 -Filtrowanie i Suwaki: Użytkownik może filtrować kraje na podstawie zakresu PKB per capita za pomocą suwaka, co pozwala skupić się na bogatszych lub biedniejszych gospodarkach.
@@ -16,3 +16,12 @@ Kluczowe Funkcje ✨
 
 Dane 
 Aplikacja wczytuje dane z pliku OECD.xlsx (musi znajdować się w katalogu głównym) i przetwarza kilkanaście wskaźników ekonomicznych i społecznych.
+
+Otwieranie 
+Aplikacje Dash działają jako lokalny serwer i otwierają się w Twojej przeglądarce internetowej. 
+Uruchomienie Serwera: W terminalu (będąc w folderze projektu) wpisz: 
+python Kod.py 
+
+Otwarcie w Przeglądarce: Aplikacja automatycznie uruchomi serwer. Skopiuj i wklej ten adres do swojej przeglądarki internetowej, aby otworzyć Dashboard: 
+
+http://127.0.0.1:8050/

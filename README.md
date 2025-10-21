@@ -1,4 +1,4 @@
-###🌐 Analiza Wskaźników OECD - Interaktywny Dashboard
+### 🌐 Analiza Wskaźników OECD - Interaktywny Dashboard
 Aplikacja w Pythonie zbudowana przy użyciu frameworku Dash (Plotly), która dostarcza interaktywny pulpit nawigacyjny (Dashboard) do wizualnej analizy kluczowych wskaźników społeczno-ekonomicznych krajów OECD.
 
 Ten panel pozwala na dynamiczną eksplorację danych i łatwe wykrywanie korelacji oraz trendów.
